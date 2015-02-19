@@ -1,0 +1,28 @@
+{
+  "name": "flux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sscotth/flux.git"
+  },
+  "author": "Scott <scott@sscotth.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sscotth/flux/issues"
+  },
+  "homepage": "https://github.com/sscotth/flux",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.5.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-load-plugins": "^0.8.0",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0"
+  }
+}
