@@ -1,7 +1,7 @@
 'use strict';
 
-var appConstants  = require('../constants/appConstants.js'),
-    appDispatcher = require('../dispatchers/appDispatcher.js'),
+var appConstants  = require('../constants/appConstants'),
+    appDispatcher = require('../dispatchers/appDispatcher'),
 
     appActions    = {
       addItem:      function addItem(item) {
