@@ -13,7 +13,6 @@ var React = require('react'),
       </div>
     );
   }
-
 });
 
 module.exports = App;

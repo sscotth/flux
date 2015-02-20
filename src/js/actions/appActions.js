@@ -5,7 +5,6 @@ var appConstants  = require('../constants/appConstants'),
 
     appActions    = {
       addItem:      function addItem(item) {
-        console.log(item);
         appDispatcher.dispatch({
           actionType: appConstants.ADD_ITEM,
           item:       item

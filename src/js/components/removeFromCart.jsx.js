@@ -13,7 +13,6 @@ var React      = require('react'),
       <button onClick={this.handleClick}>Remove From Cart</button>
     );
   }
-
 });
 
 module.exports = RemoveFromCart;

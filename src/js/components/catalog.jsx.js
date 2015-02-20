@@ -25,7 +25,6 @@ var React      = require('react'),
       <table>{items}</table>
     );
   }
-
 });
 
 module.exports = Catalog;

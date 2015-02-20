@@ -13,7 +13,6 @@ var React      = require('react'),
       <button onClick={this.handleClick}>Add To Cart</button>
     );
   }
-
 });
 
 module.exports = AddToCart;
