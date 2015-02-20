@@ -13,7 +13,7 @@ var React      = require('react'),
   render: function render() {
     var items = this.state.items.map(function createRow(item) {
       return (
-        <tr>
+        <tr key={item.id}>
           <td>{item.title}</td>
           <td>${item.price}</td>
           <td><AddToCart item={item}/></td>
