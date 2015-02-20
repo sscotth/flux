@@ -116,6 +116,7 @@ function _addItem(item) {
   if (isAlreadyInCart) {
     _increaseItem(item.id);
   } else {
+    item.qty = 1;
     _cartItems.push(item);
   }
 
