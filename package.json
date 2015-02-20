@@ -26,6 +26,7 @@
     "reactify": "^1.0.0"
   },
   "dependencies": {
-    "flux": "^2.0.1"
+    "flux": "^2.0.1",
+    "object-assign": "^2.0.0"
   }
 }

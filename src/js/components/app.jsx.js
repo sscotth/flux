@@ -1,17 +1,16 @@
 'use strict';
 
 var React = require('react'),
-    appActions = require('../actions/appActions'),
+    Catalog = require('../components/catalog.jsx'),
 
     App   = React.createClass({
-
-  handleClick: function handleClick() {
-    appActions.addItem('this is an item');
-  },
-
   render: function render() {
     return (
-      <h1 onClick={this.handleClick}>My First Component</h1>
+      <div>
+        <h1>My Store</h1>
+        <hr />
+        <Catalog />
+      </div>
     );
   }
 
