@@ -1,6 +1,7 @@
 'use strict';
 
-var React = require('react'),
+var React        = require('react'),
+    RouteHandler = require('react-router').RouteHandler,
 
     Header = require('./header.jsx'),
 
@@ -11,6 +12,7 @@ App = React.createClass({
     return (
       <div>
         <Header />
+        <RouteHandler/>
       </div>
     );
   }

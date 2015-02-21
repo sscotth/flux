@@ -6,6 +6,7 @@ var React             = require('react'),
     IncreaseItemCount = require('../components/increaseItemCount.jsx'),
     DecreaseItemCount = require('../components/decreaseItemCount.jsx'),
 
+    Link              = require('react-router').Link,
 
     Cart  = React.createClass({
   getInitialState: function getInitialState() {
@@ -14,6 +15,10 @@ var React             = require('react'),
 
   componentWillMount: function componentWillMount() {
     appStore.addChangeListener(this._onChange);
+  },
+
+  componentWillUnmount: function componentWillUnmount() {
+    appStore.removeChangeListener(this._onChange);
   },
 
   _onChange: function onChange() {
@@ -47,6 +52,7 @@ var React             = require('react'),
           {items}
         </table>
         <h3>Total: {total}</h3>
+        <Link to="catalog">Continue Shopping</Link>
       </div>
     );
   }
