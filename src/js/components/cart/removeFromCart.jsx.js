@@ -1,7 +1,7 @@
 'use strict';
 
 var React      = require('react'),
-    appActions = require('../actions/appActions'),
+    appActions = require('../../actions/appActions'),
 
     RemoveFromCart  = React.createClass({
   handleClick: function handleClick() {

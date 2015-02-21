@@ -7,8 +7,8 @@ var React  = require('react'),
     Route        = Router.Route,
 
     App     = require('./components/app.jsx'),
-    Catalog = require('./components/catalog.jsx'),
-    Cart    = require('./components/cart.jsx'),
+    Catalog = require('./components/catalog/catalog.jsx'),
+    Cart    = require('./components/cart/cart.jsx'),
 
     ROUTES = (
       <Route name="app" path="/" handler={App}>

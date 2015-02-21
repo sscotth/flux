@@ -1,9 +1,8 @@
 'use strict';
 
 var React      = require('react'),
-    appStore   = require('../stores/appStore.js'),
-    appActions = require('../actions/appActions'),
-    AddToCart  = require('../components/addToCart.jsx'),
+    appStore   = require('../../stores/appStore.js'),
+    AddToCart  = require('./addToCart.jsx'),
 
     Catalog  = React.createClass({
   getInitialState: function getInitialState() {

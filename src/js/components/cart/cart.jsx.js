@@ -1,10 +1,10 @@
 'use strict';
 
 var React             = require('react'),
-    appStore          = require('../stores/appStore.js'),
-    RemoveFromCart    = require('../components/removeFromCart.jsx'),
-    IncreaseItemCount = require('../components/increaseItemCount.jsx'),
-    DecreaseItemCount = require('../components/decreaseItemCount.jsx'),
+    appStore          = require('../../stores/appStore.js'),
+    RemoveFromCart    = require('./removeFromCart.jsx'),
+    IncreaseItemCount = require('./increaseItemCount.jsx'),
+    DecreaseItemCount = require('./decreaseItemCount.jsx'),
 
     Link              = require('react-router').Link,
 
